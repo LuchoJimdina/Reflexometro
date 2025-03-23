@@ -48,7 +48,7 @@ st.markdown(
 )
 
 # IMAGEN DE ENCABEZADO (puedes reemplazar la URL o usar un archivo local)
-st.image(descarga.jpg, use_container_width=True)
+st.image("descarga.jpg", use_container_width=True)
 
 # BASE DE DATOS
 DB_NAME = "reflections.db"
