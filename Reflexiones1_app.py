@@ -221,6 +221,7 @@ def main():
             rows = get_reflections_for_user(st.session_state.user_id)
             if rows:
                 df = pd.DataFrame(rows, columns=["ID", "Usuario", "Dificultad", "Sentimiento", "Opción", "Comentarios"])
+                df = st.data_editor(df)
                 # Filtros para el alumno
                 difficulties = [1, 2, 3, 4, 5]
                 selected_difficulties = st.multiselect("Filtrar por Dificultad", difficulties, default=difficulties)
