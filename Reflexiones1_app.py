@@ -48,7 +48,7 @@ st.markdown(
 )
 
 # IMAGEN DE ENCABEZADO (puedes reemplazar la URL o usar un archivo local)
-st.image("https://github.com/LuchoJimdina/Reflexometro/blob/main/Reflexiones1_app.py#:~:text=descarga.jpeg", use_container_width=True)
+st.image("https://img.freepik.com/foto-gratis/pequeno-genio-resolviendo-algebra-clase_53876-96969.jpg?ga=GA1.1.652246121.1732534193&semt=ais_keywords_boost", use_container_width=True)
 
 # BASE DE DATOS
 DB_NAME = "reflections.db"
